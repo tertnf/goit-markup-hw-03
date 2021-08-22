@@ -1,0 +1,189 @@
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --main-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --third-text-color: #000000;
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --third-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+/*----------Index html-----------*/
+.hidden-title {
+  visibility: hidden;
+}
+.nav-link:hover,
+.contacts-link:hover,
+.nav-link:focus,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+}
+.logo-color {
+  color: var(--third-text-color);
+}
+.nav-link {
+  font-weight: 500;
+  /*font-size: 14px;*/
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.contacts-link {
+  font-weight: 500;
+  /*font-size: 14px;*/
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.contacts-link {
+  color: var(--main-text-color);
+}
+
+/*----------HERO Section------------*/
+.hero-section {
+  background-color: var(--third-background-color);
+}
+
+.page-header {
+  background-color: var(--main-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  background-color: var(--secondary-background-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.main-button:hover,
+.main-button:focus {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+
+.works-section,
+.key-text-section {
+  background-color: var(--main-background-color);
+}
+.works-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+.features {
+  font-weight: 700;
+  /*font-size: 14px;*/
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+.features-text {
+  /*font-size: 14px;*/
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+/*--------------Footer-----------------*/
+.adr-text {
+  /*font-size: 14px;*/
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.page-footer {
+  background-color: var(--third-background-color);
+}
+/*------------Portfolio--------------*/
+.projects-section {
+  background-color: var(--main-background-color);
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.projects-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.filter .hero-button.current {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.site-nav .nav-link.current {
+  color: var(--accent-color);
+}
+.page-footer .logo-color {
+  color: var(--main-title-color);
+}

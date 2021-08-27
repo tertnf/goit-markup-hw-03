@@ -187,3 +187,62 @@ body {
 .page-footer .logo-color {
   color: var(--main-title-color);
 }
+.page-header {
+  display: flex;
+  flex-direction: row;
+}
+.site-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts-link {
+  margin-right: 20px;
+}
+.site-contacts {
+  display: flex;
+  flex-direction: row;
+}
+.key-text-list {
+  display: flex;
+}
+.team-list {
+  display: flex;
+}
+.team-item:not(:last-child) {
+  margin-right: 20px;
+}
+.works-list {
+  display: flex;
+}
+.works-list-item:not(:last-child) {
+  margin-right: 20px;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.filter-button:not(:last-child) {
+  margin-right: 20px;
+}
+.projects-list {
+  display: flex;
+  flex-basis: calc (100%/3-20px);
+  flex-wrap: wrap;
+}
+.projects-item:not(:last-child) {
+  margin-right: 20px;
+}
+.hero-title {
+  margin: 20px 350px;
+}
+.main-button {
+  display: flex;
+  justify-content: center;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item:not(:last-child) {
+  margin-right: 20px;
+}

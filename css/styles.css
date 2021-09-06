@@ -93,12 +93,14 @@ p {
 /*----------HERO Section------------*/
 .hero-section {
   background-color: var(--third-background-color);
-  /*outline: 1px solid red;*/
+  outline: 1px solid red;
   text-align: center;
+  padding-bottom: 200px;
 }
 
 .page-header {
   background-color: var(--main-background-color);
+  border: 1px solid #ececec;
 }
 .hero-title {
   margin-bottom: 30px;
@@ -116,7 +118,7 @@ p {
   color: var(--main-title-color);
 }
 .hero-button {
-  margin-bottom: 200px;
+  /*margin-bottom: 200px;*/
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -246,17 +248,21 @@ p {
 .filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 .filter-button:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .projects-list {
   display: flex;
-  flex-basis: calc (100%/3-20px);
+  flex-basis: calc((100% / 3)-30px);
   flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
+
 .projects-item:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .nav-list {
@@ -275,8 +281,8 @@ p {
   padding-right: 15px;
   margin: 0 auto;
 
-  /*background-color: turquoise;*/
-  /*outline: 1px solid tomato;*/
+  background-color: turquoise;
+  outline: 1px solid tomato;
 }
 .container-feature {
   display: flex;
@@ -345,6 +351,11 @@ p {
   padding-bottom: 94px;
 }
 
+.project-item-content {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
 .page-footer .adr-text {
   display: block;
   margin-bottom: 9px;
@@ -359,4 +370,9 @@ p {
 }
 .page-footer .contacts-item + .contacts-item {
   margin-top: 9px;
+}
+
+/*Portfolio*/
+.filter {
+  margin-top: 94px;
 }

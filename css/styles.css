@@ -30,6 +30,12 @@ p {
   margin: 0px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*----------Index html-----------*/
 .hidden-title {
   visibility: hidden;
@@ -73,6 +79,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .contacts-link {
   color: var(--main-text-color);
   font-weight: 500;
@@ -97,8 +104,9 @@ p {
 }
 .hero-title {
   margin-bottom: 30px;
-  margin-left: 452px;
-  margin-right: 452px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 
   font-weight: 900;
@@ -243,14 +251,14 @@ p {
 .filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-list-item:not(:last-child) {
   margin-right: 30px;
 }
 .projects-list {
   display: flex;
-  flex-basis: calc((100% / 3) - 28px);
+  flex-basis: calc((100% / 3) - 30px);
   flex-wrap: wrap;
   padding: 0px;
   margin: 0px;
@@ -307,9 +315,9 @@ nav-item {
   margin-left: auto;
   padding-left: 0px;
 }
-/*.contacts-item:not(:last-child) {
+.contacts-item:not(:last-child) {
   margin-right: 50px;
-}*/
+}
 
 .page-header .site-contacts .contacts-item + .contacts-item {
   margin-left: 50px;
@@ -382,7 +390,6 @@ nav-item {
 .project-item-description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  margin-top: -3px;
 }
 .projects-title {
   margin-bottom: 4px;
